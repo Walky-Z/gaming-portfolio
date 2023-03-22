@@ -3,7 +3,7 @@
             box-sizing: border-box;
         }
         :root {
-            --color1: #eed009;
+            --color1: #f9d406;
             --color2: #F4F4F4;
             --color3: #979797;
         }
@@ -227,6 +227,9 @@
             color: var(--color1);
             float: left;
             margin-left: -10px;
+        }
+        .lien-portfolio {
+            color: #14c4ff;
         }
 
         .image-vignette {
