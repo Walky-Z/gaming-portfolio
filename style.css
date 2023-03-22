@@ -1,0 +1,349 @@
+
+        * {
+            box-sizing: border-box;
+        }
+        :root {
+            --color1: #eed009;
+            --color2: #F4F4F4;
+            --color3: #979797;
+        }
+        body{
+            margin: 0;
+            font-family: Arial;
+            line-height: 1.5;
+            min-width: 550px; 
+        }
+
+        iframe {
+            width: 100%;
+            border: none;
+            height: 350px;
+        }
+        div.cover {
+            background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+            height: 360px;
+            position: relative;
+            margin-top: 5px;
+        }
+
+        img.cover-profile {
+            height: 100px;
+            position: relative;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: 50px;
+
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 42px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        div.cover p {
+            color: white;
+            text-align: center;
+        }
+
+        div.cover-contact {
+            /*background-color: #FF000080;*/
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-left: 4px solid var(--color1);
+            padding-left: 8px;
+        }
+        div.cover-contact p {
+            text-align: left;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        div.cover-contact p:first-child {
+            margin-bottom: 14px;
+        }
+        div.cover-contact a {
+            color: white;
+            font-size: 14px;
+        }
+        .cover-button {
+            text-align: center;
+        }
+        
+
+        .cover-button a {
+            background-color: #00000040;
+            color: var(--color1);
+            border: 3px solid var(--color1);
+            display: inline-block;
+            padding: 8px 20px;
+            margin-top: 10px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .cover-button a:hover {
+            color:  white;
+            border: 3px solid white;
+        }
+        .section {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            overflow: auto;
+        }
+        div.section-grise1 {
+            background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+            background-color: var(--color2);
+            padding-bottom: 80px;
+            text-align: center;
+            overflow: auto;
+        }
+        div.section-grise2 {
+            background: url(triangle1white.svg) no-repeat center top/100%;
+            background-color: var(--color2);
+            padding-top: 80px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 34px;
+            margin-top: 0px;
+        }
+
+        div.separateur {
+        background-color: var(--color3) ;
+        width: 150px;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        div.section-grise1 p {
+            max-width: 450px;
+            font-size: 22px;
+            text-align: center;
+            color: var(--color3);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img.col-contenu {
+            width: 40%;
+        }
+
+        div.col-contenu {
+            width: 60%;
+            float: right;
+            padding-left: 16px;
+        }
+
+        div.texte {
+            padding-left: 16px;
+            border-left: 4px solid var(--color1);
+            height: 50px;
+            display: inline-block;
+        }
+
+        div.texte p {
+            margin-top: 0px;
+        }
+        div.barre-verticale {
+            height: 50px;
+            width: 4px;
+            background-color: var(--color1);
+            margin-right: 20px;
+            margin-left: 50px;
+        }
+        .col-portfolio {
+            width: 47%;
+        }
+
+        div.frame {
+            background-color: white;
+            box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px 30px;
+            margin: 30px 50px;
+        }
+        div.frame img {
+            width: 100px;
+        }
+
+        p.frame-title {
+            font-size: 30px; 
+            text-align: center; 
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-header {
+            height: 90px;
+            background: url(header.jpg) no-repeat center/cover;
+            position: relative;
+        }
+        .nom-header {
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+            margin-top: 20px;
+            margin-left: 15px;
+            padding-top: 4px;
+            padding-left: 8px;
+        }
+
+        div.header-button {
+            position: absolute;
+            right: 20px;
+            top: 5px;
+
+        }
+
+        h1.portfolio {
+            color: black;
+            font-size: 46px;
+            line-height: 1;
+            margin-top: 10px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        h2.portfolio {
+            color: black;
+            font-size: 26px;
+            font-weight: normal;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .portfolio-titre {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .portfolio-back {
+            color: var(--color1);
+            float: left;
+            margin-left: -10px;
+        }
+
+        .image-vignette {
+            width: 70%;
+            max-width: 475px;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        .display-mobile {
+            display: none;
+        }
+        
+
+        @media only screen and (max-width: 767px) {
+
+            /* Responsive Deisgn for mobile */
+            body{
+                min-width: 0px; 
+            }
+
+            img.cover-profile {
+                height: 90px;
+                margin-top: 75px;
+    
+            }
+            h1 {
+                font-size: 25px;
+                margin-top: 6px;
+                margin-bottom: 0px;
+            }
+    
+            div.cover p {
+                margin-top: 2px;
+                font-size: 13px;
+            }
+
+            .section {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            div.section-grise1 {
+                padding-bottom: 40px;
+            }
+
+            img.col-contenu {
+                width: 100%;
+            }
+    
+            div.col-contenu {
+                width: 100%;
+                padding-left: 8px;
+                margin-top: 20px;
+            }
+            div.barre-verticale {
+                margin-right: 20px;
+                margin-left: 10px;
+            }
+
+            .col-portfolio {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            div.frame {
+                box-shadow: none;
+                padding: 0px 0px;
+                margin: 0px 0px;
+            }
+            p.frame-title {
+                font-size: 30px; 
+                text-align: center; 
+                margin-top: 5px;
+                margin-bottom: 20px;
+            }
+
+            div.frame img {
+                width: 70px;
+            }
+            .portfolio-header {
+                height: 140px;
+            }
+            .nom-header {
+                font-size: 20px;
+                margin-top: 20px;
+                margin-left: 10px;
+                padding-top: 8px;
+                padding-left: 8px;
+            }
+
+            .cover-button a {
+                padding: 7px 15px;
+                margin-top: 0px;
+                font-size: 12px;
+                display: inline-block;
+            }
+
+            div.header-button {
+                right: 12px;
+                text-align: center;
+                position:  static;
+            }
+
+
+            h1.portfolio {
+                font-size: 40px;
+            }
+    
+            h2.portfolio {
+                font-size: 22px;
+            }
+            .image-vignette {
+                width: 100%;
+            }
+            .display-mobile {
+                display: block;
+            }
+          }
