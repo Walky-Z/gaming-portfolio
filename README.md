@@ -6,7 +6,8 @@ Welcome to my gaming portfolio! Explore my projects and my passion for creating 
 
 Passionate about video games since childhood, I delve into various areas such as design, modeling, animation, programming, and project management. My skills include level design, character and environment creation, and animation.
 
-## Portfolio
+## Portfolio 
+### [Link](https://walky-z.github.io/gaming-portfolio/)
 
 - **Unity Mobile Game Project: Trippy Light** - An overview of this project is available on the portfolio.
 - **Unity Project: Attack on Titan Fan Game** - Additional details on this specific project.
